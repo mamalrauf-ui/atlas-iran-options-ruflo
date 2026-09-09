@@ -1,0 +1,31 @@
+# Ruflo local secrets and runtime data
+.env
+.env.local
+.env.*.local
+.claude-flow/data/
+.claude-flow/logs/
+.claude-flow/sessions/
+
+# Python environment and cache
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Ruflo local swarm state
+.swarm/memory.db
+.swarm/memory.db-shm
+.swarm/memory.db-wal
+
+# ATLAS local database
+data/database.db
+
+# Ruflo runtime state
+.claude-flow/daemon-state.json
+.claude-flow/daemon.pid
+.claude-flow/metrics/
+.claude-flow/policy/state.json
+.claude-flow/security/audit-status.json
+
+# Ruflo swarm backups
+.swarm/backups/
